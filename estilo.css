@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(254, 146, 182);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#login{
+    position: relative;
+    background-color: whitesmoke;
+    margin: 15em auto; /* Aumente o valor da margem superior */
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#nome{
+    color: rgb(255, 98, 150)
+}
+
+#hkimg{
+    position: absolute;
+    top: -120px; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img{
+    width: 50%;
+}
+
+/* Consulta de mídia para telas menores */
+@media (max-width: 600px) {
+    img {
+        width: 70%;
+    }
+}
+
+#esquecisenha{
+
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(255, 98, 150)
+
+}
+
+/* ... Seu código CSS existente ... */
+
+/* Estilos para o campo de entrada da senha */
+#senha {
+    padding: 10px;
+    border: 1.5px solid rgba(0, 0, 0, 0.653);
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+/* Estilos para o botão */
+input[type="button"] {
+    background-color: rgb(255, 98, 150);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Estilos para o botão ao passar o mouse */
+input[type="button"]:hover {
+    background-color: rgb(255, 78, 130);
+}
+
+#frase{
+
+font-weight: 500;
+
+}
